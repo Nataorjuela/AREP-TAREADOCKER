@@ -1,12 +1,12 @@
 
 function cache(){
 
-const peticion=fetch('http://localhost:4567/listMsj')
+const peticion=fetch(window.location.href+'/listMsj')
 
 peticion
 .then(resp=>resp.json())
 .then(mensaje=> {
-   for(let i=0; i<9;i++){
+   for(let i=0; i<40;i++){
     let result = mensaje[i]
     
     let mensajeTemp= result.mensaje
@@ -22,12 +22,12 @@ peticion
 }
 
 function insertMsj (){
-    let url = 'http://localhost:4567/insertMsj'
+    let url = window.location.href+'/insertMsj' 
     let input = document.getElementById("input").value;
     axios.post(url,input).then(result=>{
         console.log("ENTRAAAA")
     })
-    //location.reload();
+    
     
 
 }
