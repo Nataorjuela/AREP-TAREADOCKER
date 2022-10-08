@@ -36,6 +36,11 @@ Además que muestre imágenes de cómo quedó desplegado cuando hicieron las pru
 
 ![image](https://github.com/Nataorjuela/AREP-TAREADOCKER/blob/master/Images/repodocker.jpg)
 
-** prueba aws: **
+## PRUEBA AWS
 
 ![image](https://github.com/Nataorjuela/AREP-TAREADOCKER/blob/master/Images/aws.jpg)
+
+## AUTOR:
+
+Natalia Orjuela Hernandez
+
